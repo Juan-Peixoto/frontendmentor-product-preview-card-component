@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/semantic-html5markup-css-custom-properties-flexbox-mobilefirst-workf-0WdNxWrkkX))
 - Live Site URL: [See live version here](https://juan-peixoto.github.io/frontendmentor-product-preview-card-component/)
 
 ## My process
