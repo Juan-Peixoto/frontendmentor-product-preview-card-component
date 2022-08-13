@@ -1,0 +1,21 @@
+@media screen and (min-width: 440px) {
+    body.container {
+        div.product-card-component {
+            flex-direction: row;
+            height: 450px;
+            max-width: 600px;
+
+            div.product-image {
+                background-image: url(../images/image-product-desktop.jpg);
+                height: 100%;
+                max-width: 600px;
+            }
+
+            div.description-box {
+                height: 100%;
+                max-width: 300px;
+                padding: 0px 30px;
+            }
+        }
+    }
+}

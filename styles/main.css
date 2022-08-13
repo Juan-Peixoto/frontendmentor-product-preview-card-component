@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-center-center, body.container, body.container > div, body.container > div div.description-box button#add-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondary-text {
+  color: #6c7289;
+}
+
+.fraunces-500, body.container > div div.description-box div.price-box span:nth-of-type(1) {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+}
+
+.fraunces-700, body.container > div div.description-box h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.montserrat, body.container > div div.description-box p, body.container > div div.description-box button#add-button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 440px) {
+  body.container div.product-card-component {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 450px;
+    max-width: 600px;
+  }
+  body.container div.product-card-component div.product-image {
+    background-image: url(../images/image-product-desktop.jpg);
+    height: 100%;
+    max-width: 600px;
+  }
+  body.container div.product-card-component div.description-box {
+    height: 100%;
+    max-width: 300px;
+    padding: 0px 30px;
+  }
+}
+
+body.container {
+  background-color: #f2ebe3;
+}
+
+body.container > div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 90%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+body.container > div div.product-image {
+  background-image: url(../images/image-product-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+}
+
+body.container > div div.description-box {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 30px;
+}
+
+body.container > div div.description-box > span {
+  letter-spacing: 4px;
+}
+
+body.container > div div.description-box h2 {
+  font-size: 2.4em;
+  line-height: 33px;
+}
+
+body.container > div div.description-box p {
+  text-align: left;
+  line-height: 23px;
+}
+
+body.container > div div.description-box div.price-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.container > div div.description-box div.price-box span:nth-of-type(1) {
+  font-size: 2em;
+  color: #3c8067;
+  margin-right: 20px;
+}
+
+body.container > div div.description-box div.price-box span:nth-of-type(2) {
+  text-decoration: line-through;
+}
+
+body.container > div div.description-box button#add-button {
+  background-color: #3c8067;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+body.container > div div.description-box button#add-button svg {
+  margin-right: 10px;
+}
+
+body.container > div div.description-box button#add-button:hover {
+  cursor: pointer;
+  background-color: #59b190;
+}
+
+body.container > div div.description-box button#add-button:focus {
+  background-color: #244c3d;
+}
+/*# sourceMappingURL=main.css.map */
